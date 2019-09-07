@@ -12,10 +12,25 @@ export default{
 </script>
 <style scoped>
 .nav-bar{
+  /* display: flex;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9; */
   display: flex;
   height: 44px;
   line-height: 44px;
   text-align: center;
+  box-shadow: 0 1px 1px rgba(100,100,100,.1);
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; */
 }
 .left, .right{
   width: 60px;
